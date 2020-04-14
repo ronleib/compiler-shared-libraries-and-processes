@@ -17,9 +17,11 @@ int main(){
 		
 		openlog("myDemon", LOG_PID, LOG_DAEMON);
 		syslog(LOG_NOTICE, "demon started");
-		usleep(3000000);
+		printf("starting my demon\n");
+		usleep(300000);
 		syslog(LOG_NOTICE, "doing some work...");
-		usleep(3000000);
+		printf("starting my demon\n");		
+		usleep(3000000000);
 		syslog(LOG_NOTICE, "demon finished");
 	}
 	else printf("demon PID %d\n", pid);

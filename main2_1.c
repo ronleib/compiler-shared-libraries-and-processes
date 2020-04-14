@@ -7,7 +7,7 @@ void print(const char *text){
 
     for (int i=0;i<5;i++){
         printf("hello from %s \n",text);
-        usleep(1000);
+        usleep(100000);
 
     }
 }

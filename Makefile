@@ -1,5 +1,5 @@
 
-all:task1 task2 task3 lib fork clone daemon all
+all:task1 task2 task3 lib fork clone daemon all allMain2
 
 task1:hello_Ariel.c hello_Ariel.h main1_1.c
 	 gcc -o main1_1 hello_Ariel.c main1_1.c
